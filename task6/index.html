@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 6 задача</title>
+    <!--Call styles from the file-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--The link to switch to the main page-->
+    <a href="../index.html">К оглавлению</a>
+    <br>
+    <br>
+    <h2>Задача 6. Светофор модифицированный.</h2>
+
+    <p>Представлены 3 черных круга. При клике на каждый из кругов цвет будет меняться в следующем порядке:
+        <br>
+        Первый черый круг: цвет меняется на зеленый. Цвет остальных кругов не меняется.
+        <br>
+        Второй черный круг: цвет меняется на желтый. Первый круг меняет цвет на черный. Третий круг не меняет цвет,
+        оставаясь черным.
+        <br>
+        Третий круг: цвет меняется на красный. Первый круг цвет не меняет. Второй круг меняет цвет на черный.
+    </p>
+    <br>
+
+    <!-- These divs represent traffic light circles -->
+    <div id="trafficLight1"></div>
+    <div id="trafficLight2"></div>
+    <div id="trafficLight3"></div>
+
+    <!--Call JS. The script to change colors in divs with ids trafficLight1/2/3 -->
+    <script src="script.js"></script>
+</body>
+
+</html>

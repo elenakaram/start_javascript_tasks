@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS-Start. 3 задача</title>
+    <!--Call styles from the file-->
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <!--The link to switch to the main page-->
+    <a href="../index.html">К оглавлению</a>
+    <br>
+    <br>
+    <h2>Задача 5. Перехват формы.</h2>
+    <p>В поле ввода введите любой текст.
+        <br>
+        Текст, введенный в поле ввода, дублируется на странице.
+        <br>
+        При нажатии на кнопку <em>Вывести текст в консоль и удалить из формы</em>,
+        <br>
+        текст, написанный в поле , выводится в консоль,
+        а поле ввода и поле <em>Введенный текст</em> очищаются.
+    </p>
+    <br>
+
+    <!--This form is used to type a text in the text field and submit-->
+    <form action="#">
+        <label>
+            Текст
+            <input type="text" placeholder="Введите текст">
+        </label>
+        <button type="submit">
+            Вывести текст в консоль и удалить из формы
+        </button>
+    </form>
+    <br>
+    <hr>
+
+    <!--The text entered into the form is displayed in this div-->
+    <p>Введенный текст:</p>
+    <div id="duplicateField"></div>
+
+    <!--Call JS. The script will work on submiting the form. The text entered in the form will be displayed in console-->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
